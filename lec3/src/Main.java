@@ -1,4 +1,6 @@
- class Main{
+import java.util.Scanner;
+
+class Main{
     public static void main(String[] args){
 //        String str="hello";
 //        System.out.println(str.length());
@@ -21,16 +23,29 @@
 
         // Palindrome
 
-        String a="WOW";
-        String b="";
-        for(int i=a.length()-1;i>=0;i--){
+//        String a="WOW";
+//        String b="";
+//        for(int i=a.length()-1;i>=0;i--){
+//
+//            b+=a.charAt(i);  //here + sign means new string
+//        }
+//if(a.equals(b)){
+//    System.out.println("It is Palindrome");
+//}else{
+//    System.out.println("It is not Palindrome");
+//}
 
-            b+=a.charAt(i);  //here + sign means new string
-        }
-if(a.equals(b)){
-    System.out.println("It is Palindrome");
-}else{
-    System.out.println("It is not Palindrome");
-}
+        //Splitting the string
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter sentence");
+        String word = sc.nextLine();
+
+ String arr[]=word.split(" ");
+ for(String val:arr){
+     System.out.println(val);
+ }
+
+
      }
  }
