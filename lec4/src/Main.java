@@ -1,23 +1,30 @@
  class Main{
 
     public static void main(String[] args) {
-//        StringBuilder str=new StringBuilder("hello");
+        StringBuilder str=new StringBuilder("hello");
 //
-//        str.append("j");
+//        str.append("j"); //append means adding data frequently
 //                System.out.println (str);
 //                System.out.println(str.insert(2,"bye"));   //insert on specfic index
 //                System.out.println (str);
 
+        //insert
+//
+//        str.insert(1,"byee");
+//        System.out.println(str);
+
 //        replace
+
 //        str.replace(1,4,"hello");
 //                System.out.println("replace():"+str);
 
         //delete
-
+//
 //        str.delete(2,5);
 //        System.out.println("delete(): "+str);
 
-        //deletecharAt()
+        //deleteCharAt()
+
 //        str.deleteCharAt(1);
 //        System.out.println("deleteCharAt():"+str)
 //
@@ -56,18 +63,18 @@
 //    }
 //    }
 
-        String str = "aaabbbccc";
-        StringBuilder result = new StringBuilder();
-        int count=1;
-        for (int i = 1; i < str.length(); i++) {
-            if (str.charAt(i) == str.charAt(i - 1)) {
-                count++;
-            } else {
-                result.append(str.charAt(i - 1)).append(count);
-                count=1;
-            }
-         }
-        result.append(result).append(count);
-        System.out.println(result);
+//        String str = "aaabbbcccdd";
+//        StringBuilder result = new StringBuilder();
+//        int count=1;
+//        for (int i = 1; i < str.length(); i++) {
+//            if (str.charAt(i) == str.charAt(i - 1)) {
+//                count++;
+//            } else {
+//                result.append(str.charAt(i - 1)).append(count);
+//                count= 1;
+//            }
+//         }
+//        result.append(str.charAt(str.length()-1)).append( count );
+//        System.out.println(result);
     }
 }
