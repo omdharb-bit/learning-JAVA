@@ -1,7 +1,7 @@
  class Main{
 
     public static void main(String[] args) {
-        StringBuilder str=new StringBuilder("hello");
+//        StringBuilder str=new StringBuilder("hello");
 //
 //        str.append("j"); //append means adding data frequently
 //                System.out.println (str);
@@ -43,6 +43,10 @@
 //        str.length();
 //        System.out.println("Length()"+str);
 
+        //capacity   (16 is default)
+
+//        System.out.println("Capacity:"+str.capacity());
+
         //reverse a string
 
 //        StringBuilder str = new StringBuilder("I Love Java");
@@ -78,3 +82,4 @@
 //        System.out.println(result);
     }
 }
+
