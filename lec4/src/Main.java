@@ -66,7 +66,9 @@
 //
 //    }
 //    }
+            //compress the code
 
+//
 //        String str = "aaabbbcccdd";
 //        StringBuilder result = new StringBuilder();
 //        int count=1;
