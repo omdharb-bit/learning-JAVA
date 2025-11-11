@@ -37,15 +37,15 @@ class Main{
 
         //Splitting the string
 
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter sentence");
-        String word = sc.nextLine();
-
- String arr[]=word.split(" ");
- for(String val:arr){
-     System.out.println(val);
- }
-
-
-     }
- }
+      //  Scanner sc=new Scanner(System.in);
+//        System.out.println("Enter sentence");
+//        String word = sc.nextLine();
+//
+// String arr[]=word.split(" ");
+// for(String val:arr){
+//     System.out.println(val);
+// }
+//
+//
+//     }
+// }
