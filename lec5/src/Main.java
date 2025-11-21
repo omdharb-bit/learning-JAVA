@@ -43,45 +43,86 @@
 //    }
 // }
 
- // Create a class Student with fields name, rollNumber, and marks. Write a method to display
+ // Q-1) Create a class Student with fields name, rollNumber, and marks. Write a method to display
  // student details. Create 3 student objects and display their data.
 
 
- class Student{
-  static   String name="Om Dhar";
-   static String rollnumber="23";
-  static   String marks="88";
+// class Student{
+//  static   String name="Om Dhar";
+//   static String rollnumber="23";
+//  static   String marks="88";
+//
+//static   String name1="Krishna";
+//   static String rollnumber1="21";
+//  static   String marks1="8";
+//
+//static   String name2="Anshul";
+//   static String rollnumber2="13";
+//  static   String marks2="80";
+//
+//
+//
+//    static  void Student_details(){
+//        System.out.println("Name of 1st student:" +name);
+//        System.out.println("Roll number:" +rollnumber);
+//        System.out.println("Marks:" +marks);
+//        System.out.println("\n");
+//
+//        System.out.println("Name of 2nd student:" +name1);
+//        System.out.println("Roll number:" +rollnumber1);
+//        System.out.println("Marks:" +marks1);
+//        System.out.println("\n");
+//
+//        System.out.println("Name of 3rd student:" +name2);
+//        System.out.println("Roll number:" +rollnumber2);
+//        System.out.println("Marks:" +marks2);
+//        System.out.println("\n");
+//    }
+// }
+// class  Main{
+//    public static void main(String[] args){
+//        Student obj=new Student();
+//        obj.Student_details();
+//    }
+// }
 
-static   String name1="Krishna";
-   static String rollnumber1="21";
-  static   String marks1="8";
+// Q-1) Create a class Rectangle with length and breadth as fields. Add methods to calculate area and
+// perimeter. Create objects with different values and call those methods
 
-static   String name2="Anshul";
-   static String rollnumber2="13";
-  static   String marks2="80";
+// class  Rectangle{
+//         int length=10;
+//         int breadth=20;
+//         int area=length*breadth;
+//         static void a(){
+//             Rectangle r1=new Rectangle();
+//             System.out.println("Area: "+r1.area);
+// }
+//
+//}
+// class Main{
+//    public static void main(String[] args){
+//        Rectangle.a();
+//    }
+// }
 
+// Create a class Laptop with brand, RAM, and price. Add a constructor to initialize values and a
+// method to display them
 
+ class Laptop{
+    String brand;
+    String RAM;
+  String Price;
 
-    static  void Student_details(){
-        System.out.println("Name of 1st student:" +name);
-        System.out.println("Roll number:" +rollnumber);
-        System.out.println("Marks:" +marks);
-        System.out.println("\n");
-
-        System.out.println("Name of 2nd student:" +name1);
-        System.out.println("Roll number:" +rollnumber1);
-        System.out.println("Marks:" +marks1);
-        System.out.println("\n");
-
-        System.out.println("Name of 3rd student:" +name2);
-        System.out.println("Roll number:" +rollnumber2);
-        System.out.println("Marks:" +marks2);
-        System.out.println("\n");
-    }
- }
- class  Main{
+  Laptop(String brand,String RAM,String Price){
+      this.brand=brand;
+      this.RAM=RAM;
+      this.Price=Price;
+      System.out.println("Brand Of the Laptop: "+brand);
+      System.out.println("RAM Of the Laptop: "+RAM);
+      System.out.println("Price Of the Laptop: "+Price);
+  }
+ }class Main{
     public static void main(String[] args){
-        Student obj=new Student();
-        obj.Student_details();
+        Laptop l1=new Laptop("LENOVO","256","50,000");
     }
  }
