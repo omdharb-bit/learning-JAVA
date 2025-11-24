@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Main.iml" filepath="$PROJECT_DIR$/Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Packages/Packages.iml" filepath="$PROJECT_DIR$/Packages/Packages.iml" />
       <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/lec1/lec1.iml" filepath="$PROJECT_DIR$/lec1/lec1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lec2/lec2.iml" filepath="$PROJECT_DIR$/lec2/lec2.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/lec4/lec4.iml" filepath="$PROJECT_DIR$/lec4/lec4.iml" />
       <module fileurl="file://$PROJECT_DIR$/lec5/lec5.iml" filepath="$PROJECT_DIR$/lec5/lec5.iml" />
       <module fileurl="file://$PROJECT_DIR$/lec6/lec6.iml" filepath="$PROJECT_DIR$/lec6/lec6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/src.iml" filepath="$PROJECT_DIR$/src/src.iml" />
     </modules>
   </component>
 </project>
