@@ -14,14 +14,9 @@ public class Main {
             int val= it.next();
 //            System.out.println(it.next());
             if(val == 6){
-
                 it.remove();
-
             }
         }
-
         System.out.println("After removal: "+list);
     }
-
-
 }
