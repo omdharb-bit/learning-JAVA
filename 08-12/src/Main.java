@@ -1,22 +1,25 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
-public class Main {
-
-    public static void main(String[] args){
-
-        ArrayList<Integer>list=new ArrayList<>();
+class Main {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
         list.add(5);
-        list.add(6);
-        list.add(7);
-        Iterator<Integer> it=list.iterator();
-        while(it.hasNext()){
-            int val= it.next();
-//            System.out.println(it.next());
-            if(val == 6){
-                it.remove();
+
+        // Using ListIterator to update elements
+        ListIterator<Integer> it = list.listIterator();
+
+        while (it.hasNext()) {
+            int val = it.next();
+            if (val == 4) {
+                it.set(10);   // replace 4 with 10
             }
         }
-        System.out.println("After removal: "+list);
+        System.out.println("After modification: " + list);
     }
 }
