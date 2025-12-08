@@ -1,5 +1,3 @@
- import t1.a;
-import t1.b;
 import p2.c;
 
 public class Main {
