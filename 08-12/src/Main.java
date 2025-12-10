@@ -18,6 +18,7 @@ class Main {
         int end = list.size() - 1;
         int mid = st + (end - st) / 2;
 
+
         ListIterator<Integer> it = list.listIterator();
         int index = 0;
 
@@ -25,7 +26,6 @@ class Main {
             int val = it.next();
             System.out.println(val);
         }
-
         while(it.hasPrevious()){
             int val1 =  it.previous();
             System.out.println(val1);
